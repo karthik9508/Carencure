@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Carencure Pest Control</title>
+  <script type="module" src="./src/main.js"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+  <!-- Header / Navbar -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container-custom py-4 flex justify-between items-center">
+      <a href="/" class="text-2xl font-poppins font-bold text-primary flex items-center gap-2">
+        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+        Carencure
+      </a>
+      <nav class="hidden md:flex gap-6 items-center">
+        <a href="index.html" class="text-gray-600 hover:text-primary transition-colors">Home</a>
+        <a href="about.html" class="text-primary font-medium transition-colors">About Us</a>
+        <a href="services.html" class="text-gray-600 hover:text-primary transition-colors">Services</a>
+        <a href="certificates.html" class="text-gray-600 hover:text-primary transition-colors">Certificates</a>
+        <a href="gallery.html" class="text-gray-600 hover:text-primary transition-colors">Gallery</a>
+        <a href="contact.html" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="tel:+1234567890" class="btn-primary">Call Now</a>
+      </div>
+      <button id="mobile-menu-btn" class="md:hidden text-gray-600 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+      <nav class="flex flex-col px-4 py-2">
+        <a href="index.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">Home</a>
+        <a href="about.html" class="py-2 border-b border-gray-100 text-primary font-medium">About Us</a>
+        <a href="services.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">Services</a>
+        <a href="certificates.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">Certificates</a>
+        <a href="gallery.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">Gallery</a>
+        <a href="contact.html" class="py-2  text-gray-600 hover:text-primary transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow pb-16 md:pb-0">
+    <section class="bg-primary text-white py-16 md:py-24 text-center">
+      <div class="container-custom">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">About <span class="text-secondary">CarenCure</span></h1>
+        <p class="text-xl text-gray-200 max-w-2xl mx-auto">Protecting Homes, Businesses & Industries with Professional Pest Control Solutions.</p>
+      </div>
+    </section>
+
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="flex flex-col md:flex-row gap-12 items-start">
+          <!-- Profile Sidebar -->
+          <div class="md:w-1/3 flex flex-col items-center md:items-start">
+            <div class="sticky top-24">
+              <img src="./images/arun.jfif" alt="Mr. Arun Prasth - Founder" class="w-64 h-64 object-cover rounded-3xl shadow-xl mb-6 mx-auto md:mx-0 border-4 border-white">
+              <div class="text-center md:text-left">
+                <h3 class="text-2xl font-bold text-primary">Mr. Arun Prasth</h3>
+                <p class="text-secondary font-medium">Founder, CarenCure</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Main Content -->
+          <div class="md:w-2/3">
+            <h2 class="text-3xl font-bold mb-6 text-primary">Who We Are</h2>
+            <p class="text-gray-600 mb-4 leading-relaxed">Welcome to <strong>CarenCure Pest Control Services</strong>, your trusted partner for safe, effective, and reliable pest management solutions. We are committed to protecting residential, commercial, and industrial properties with environmentally responsible pest control services tailored to every customer's needs.</p>
+            <p class="text-gray-600 mb-10 leading-relaxed">Founded by <strong>Mr. Arun Prasth</strong>, CarenCure is built on years of professional experience, technical expertise, and a commitment to delivering high-quality pest management services. Our goal is simple—to create healthier, safer, and pest-free environments through modern treatment methods and industry best practices.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+              <!-- Experience -->
+              <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <h3 class="text-xl font-bold mb-4 text-primary">Our Experience</h3>
+                <p class="text-gray-600 mb-4 text-sm leading-relaxed">Mr. Arun Prasth has gained valuable international experience by providing professional pest control services for prestigious organizations, including projects in <strong>Saudi Arabia</strong>.</p>
+                <ul class="space-y-3 text-sm text-gray-600">
+                  <li class="flex items-start gap-2"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> WHO-related projects in Saudi Arabia</li>
+                  <li class="flex items-start gap-2"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Embassy of South Africa (Saudi Arabia)</li>
+                  <li class="flex items-start gap-2"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> International Biscuit Manufacturing Co.</li>
+                  <li class="flex items-start gap-2"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Saudi Cement Company Certification</li>
+                  <li class="flex items-start gap-2"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> CFTRI Certified</li>
+                </ul>
+              </div>
+
+              <!-- Why Choose Us -->
+              <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <h3 class="text-xl font-bold mb-4 text-primary">Why Choose CarenCure?</h3>
+                <ul class="space-y-4 text-sm text-gray-600">
+                  <li class="flex items-start gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Experienced professional with international project exposure</li>
+                  <li class="flex items-start gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Safe and eco-friendly treatment methods</li>
+                  <li class="flex items-start gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Customized pest management solutions</li>
+                  <li class="flex items-start gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Modern equipment and proven treatment techniques</li>
+                  <li class="flex items-start gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Reliable, affordable, and customer-focused service</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Services -->
+            <div class="mb-10">
+              <h3 class="text-2xl font-bold mb-4 text-primary">Our Services</h3>
+              <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Termite Control</span>
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Cockroach Control</span>
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Bed Bug Control</span>
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Mosquito Control</span>
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Rat & Mice Control</span>
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Red Ant Control</span>
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Commercial Management</span>
+                <span class="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">Preventive Programs</span>
+              </div>
+            </div>
+
+            <!-- Core Values -->
+            <div class="space-y-6 border-t border-gray-100 pt-8">
+              <div>
+                <h3 class="text-xl font-bold mb-2 text-primary">Our Mission</h3>
+                <p class="text-gray-600 leading-relaxed">To provide safe, effective, and sustainable pest control solutions that protect families, businesses, and industries while delivering exceptional customer service and long-lasting results.</p>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2 text-primary">Our Vision</h3>
+                <p class="text-gray-600 leading-relaxed">To become one of the most trusted pest control service providers by delivering professional, innovative, and environmentally responsible pest management solutions that exceed customer expectations.</p>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2 text-primary">Our Commitment</h3>
+                <p class="text-gray-600 leading-relaxed">At CarenCure, every project is handled with professionalism, integrity, and attention to detail. Whether serving homes, offices, restaurants, industries, or large commercial facilities, we are dedicated to providing dependable pest control services that ensure a healthier, safer, and pest-free environment.</p>
+              </div>
+            </div>
+
+            <div class="mt-10">
+              <a href="contact.html" class="btn-primary inline-flex">Contact Us Today</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 pt-16 pb-8 border-t border-gray-800">
+     <!-- Simple Footer mock to save lines for now, using the same content as index.html essentially but abbreviated for this test -->
+     <div class="container-custom text-center">
+       <p>&copy; 2026 Carencure Pest Control Services. All rights reserved.</p>
+     </div>
+  </footer>
+
+</body>
+</html>
