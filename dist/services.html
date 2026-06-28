@@ -3,23 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | Carencure Pest Control</title>
-  <script type="module" crossorigin src="/assets/main-5JM5pyno.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-DFhKTMCA.css">
+  <title>Our Pest Control Services | Cockroaches, Bed Bugs & Mosquitoes</title>
+  <meta name="description" content="Comprehensive pest control services tailored to eliminate cockroaches, bed bugs, mosquitoes, and more. Find effective pest control near me." />
+  <link rel="icon" type="image/png" href="/assets/icon-C4H17Ey4.png">
+  <script type="module" crossorigin src="/assets/main-4L3s3fk-.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-CsbpZWCI.css">
 </head>
 <body class="flex flex-col min-h-screen">
   <!-- Header -->
+      <!-- Header / Navbar -->
   <header class="bg-white shadow-sm sticky top-0 z-50">
     <div class="container-custom py-4 flex justify-between items-center">
-      <a href="/" class="text-2xl font-poppins font-bold text-primary flex items-center gap-2">Carencure</a>
+      <a href="/" class="flex items-center gap-2">
+        <img src="/assets/logo-BLQRjmkx.png" alt="CarenCure Logo" class="h-12 w-auto" />
+      </a>
+      
       <nav class="hidden md:flex gap-6 items-center">
-        <a href="index.html" class="text-gray-600 hover:text-primary">Home</a>
-        <a href="about.html" class="text-gray-600 hover:text-primary">About Us</a>
-        <a href="services.html" class="text-primary font-medium">Services</a>
-        <a href="experience.html" class="text-gray-600 hover:text-primary">Experience</a>
-        <a href="contact.html" class="text-gray-600 hover:text-primary">Contact</a>
+        <a href="index.html" class="text-gray-600 hover:text-primary transition-colors">Home</a>
+        <a href="about.html" class="text-gray-600 hover:text-primary transition-colors">About Us</a>
+        <a href="services.html" class="text-primary font-medium transition-colors">Services</a>
+        <a href="certificates.html" class="text-gray-600 hover:text-primary transition-colors">Certificates</a>
+        <a href="gallery.html" class="text-gray-600 hover:text-primary transition-colors">Gallery</a>
+        <a href="contact.html" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
       </nav>
-      <div class="hidden md:block"><a href="tel:+1234567890" class="btn-primary">Call Now</a></div>
+
+      <div class="hidden md:block">
+        <a href="tel:+919894677328" class="btn-primary">Call Now</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden text-gray-600 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+      <nav class="flex flex-col px-4 py-2">
+        <a href="index.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">Home</a>
+        <a href="about.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">About Us</a>
+        <a href="services.html" class="py-2 border-b border-gray-100 text-primary font-medium">Services</a>
+        <a href="certificates.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">Certificates</a>
+        <a href="gallery.html" class="py-2 border-b border-gray-100 text-gray-600 hover:text-primary transition-colors">Gallery</a>
+        <a href="contact.html" class="py-2  text-gray-600 hover:text-primary transition-colors">Contact</a>
+      </nav>
     </div>
   </header>
 
@@ -27,36 +54,116 @@
     <section class="bg-primary text-white py-16 md:py-24 text-center">
       <div class="container-custom">
         <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Our <span class="text-secondary">Services</span></h1>
-        <p class="text-xl text-gray-200 max-w-2xl mx-auto">Comprehensive pest management solutions.</p>
+        <p class="text-xl text-gray-200 max-w-3xl mx-auto">We provide comprehensive <strong>pest control services</strong> to safeguard your property. Whether you are dealing with a severe infestation of <strong>cockroaches</strong>, persistent <strong>bed bugs</strong>, or dangerous <strong>mosquitoes</strong>, our expert team is here to help.</p>
       </div>
     </section>
 
     <section class="section-padding bg-white">
       <div class="container-custom">
-        <div class="space-y-16">
-          <!-- Termite Control -->
-          <div id="termite" class="flex flex-col md:flex-row gap-8 items-center">
-            <div class="md:w-1/2">
-              <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&q=80&w=800" class="rounded-xl shadow-md">
-            </div>
-            <div class="md:w-1/2">
-              <h2 class="text-3xl font-bold mb-4 text-primary">Termite Control</h2>
-              <p class="text-gray-600 mb-4">We offer advanced pre and post-construction termite treatments. Protect your structural integrity with our guaranteed solutions.</p>
-              <ul class="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Pre-construction soil treatment</li>
-                <li>Post-construction drilling & injecting</li>
-                <li>Wood treatment</li>
-              </ul>
-            </div>
-          </div>
+        <div class="space-y-24">
           <!-- Cockroach Control -->
-          <div id="cockroach" class="flex flex-col md:flex-row-reverse gap-8 items-center">
+          <div id="cockroach" class="flex flex-col md:flex-row gap-10 items-center">
             <div class="md:w-1/2">
-              <img src="https://images.unsplash.com/photo-1629851608933-72dc012a6f23?auto=format&fit=crop&q=80&w=800" class="rounded-xl shadow-md">
+              <img src="/assets/Cockroch-controll-pAnW5Tin.png" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Cockroach Control">
             </div>
             <div class="md:w-1/2">
               <h2 class="text-3xl font-bold mb-4 text-primary">Cockroach Control</h2>
-              <p class="text-gray-600 mb-4">Targeted gel and spray treatments for kitchens, restaurants, and food processing areas.</p>
+              <p class="text-gray-600 mb-6 leading-relaxed">Cockroaches are not just a nuisance; they pose serious health risks by contaminating food and surfaces. Our advanced cockroach control treatments eliminate infestations at the source, ensuring long-term protection for your home or business.</p>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Targeted Gel & Spray Treatments</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Focus on Kitchens & Food Prep Areas</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Eco-friendly, Odorless Solutions</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Termite Control -->
+          <div id="termite" class="flex flex-col md:flex-row-reverse gap-10 items-center">
+            <div class="md:w-1/2">
+              <img src="/assets/Termite%20Control-DtpbVJf2.png" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Termite Control">
+            </div>
+            <div class="md:w-1/2">
+              <h2 class="text-3xl font-bold mb-4 text-primary">Termite Control</h2>
+              <p class="text-gray-600 mb-6 leading-relaxed">Termites can cause devastating structural damage before they are even detected. CarenCure offers specialized termite management solutions using modern technology to protect your property investment.</p>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Pre-construction Soil Treatment</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Post-construction Drilling & Injection</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Advanced Wood Preservation</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Rodent Control -->
+          <div id="rodent" class="flex flex-col md:flex-row gap-10 items-center">
+            <div class="md:w-1/2">
+              <img src="/assets/Rodent%20Control-aqM10c8e.png" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Rodent Control">
+            </div>
+            <div class="md:w-1/2">
+              <h2 class="text-3xl font-bold mb-4 text-primary">Rodent Control</h2>
+              <p class="text-gray-600 mb-6 leading-relaxed">Rodents spread disease and cause severe property damage by gnawing on wires and structures. We provide robust rodent management plans tailored for residential homes and large commercial facilities.</p>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Strategic Baiting & Trapping</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Entry Point Sealing & Exclusion</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Routine Monitoring & Maintenance</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Bed Bug Control -->
+          <div id="bedbug" class="flex flex-col md:flex-row-reverse gap-10 items-center">
+            <div class="md:w-1/2">
+              <img src="/assets/bed_bug_control_1782438359407-Dc_xFZFP.png" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Bed Bug Control">
+            </div>
+            <div class="md:w-1/2">
+              <h2 class="text-3xl font-bold mb-4 text-primary">Bed Bug Control</h2>
+              <p class="text-gray-600 mb-6 leading-relaxed">Bed bugs disrupt your peace of mind and cause uncomfortable bites. Our comprehensive eradication protocols are designed to completely eliminate these resilient pests in all stages of their life cycle.</p>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Intensive Deep-Cleaning Protocols</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Chemical & Heat Treatment Options</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Mattress & Furniture Protection</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Mosquito Control -->
+          <div id="mosquito" class="flex flex-col md:flex-row gap-10 items-center">
+            <div class="md:w-1/2">
+              <img src="/assets/Mosquito%20Control-m7O3oBGo.png" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Mosquito Control">
+            </div>
+            <div class="md:w-1/2">
+              <h2 class="text-3xl font-bold mb-4 text-primary">Mosquito Control</h2>
+              <p class="text-gray-600 mb-6 leading-relaxed">Protect your family and employees from mosquito-borne diseases like Dengue and Malaria. Our targeted mosquito control programs dramatically reduce mosquito populations around your property.</p>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Thermal Fogging & Misting</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Breeding Source Identification & Reduction</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Indoor & Outdoor Protection</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Red Ant Control -->
+          <div id="redant" class="flex flex-col md:flex-row-reverse gap-10 items-center">
+            <div class="md:w-1/2">
+              <img src="/assets/Red%20Ant%20Control-C3Um742W.png" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Red Ant Control">
+            </div>
+            <div class="md:w-1/2">
+              <h2 class="text-3xl font-bold mb-4 text-primary">Red Ant Control</h2>
+              <p class="text-gray-600 mb-6 leading-relaxed">Red ants deliver painful bites and quickly overrun indoor and outdoor spaces. We utilize specialized baiting systems that target the entire colony, including the queen, for complete eradication.</p>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Advanced Baiting Systems</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Indoor Crack & Crevice Treatments</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Outdoor Perimeter Defense</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Rat & Mice -->
+          <div id="ratmice" class="flex flex-col md:flex-row gap-10 items-center">
+            <div class="md:w-1/2">
+              <img src="/assets/Rat%20_%20Mice-BGBYE51X.png" class="rounded-2xl shadow-xl w-full h-80 object-cover" alt="Rat & Mice">
+            </div>
+            <div class="md:w-1/2">
+              <h2 class="text-3xl font-bold mb-4 text-primary">Rat & Mice</h2>
+              <p class="text-gray-600 mb-6 leading-relaxed">Rats and mice require persistent, strategic intervention. We handle severe infestations using proven techniques that safely remove rodents while preventing future invasions.</p>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Fast-acting Removal Strategies</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Humane Trapping Solutions</li>
+                <li class="flex items-center gap-3"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Commercial-Grade Rodenticide Applications</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -64,8 +171,49 @@
     </section>
   </main>
 
-  <footer class="bg-gray-900 text-gray-300 py-8 text-center border-t border-gray-800">
-    <p>&copy; 2026 Carencure Pest Control Services.</p>
+  <footer class="bg-gray-900 text-gray-300 pt-16 pb-8 border-t border-gray-800">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div>
+          <h3 class="text-2xl font-poppins font-bold text-white mb-4 flex items-center gap-2">
+            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+            Carencure
+          </h3>
+          <p class="text-sm text-gray-400">Professional pest management with international expertise. Safe, reliable, and guaranteed.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-4 uppercase tracking-wider text-sm">Quick Links</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="about.html" class="hover:text-secondary transition-colors">About Us</a></li>
+            <li><a href="services.html" class="hover:text-secondary transition-colors">Services</a></li>
+            <li><a href="experience.html" class="hover:text-secondary transition-colors">Experience</a></li>
+            <li><a href="contact.html" class="hover:text-secondary transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-4 uppercase tracking-wider text-sm">Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="services.html#cockroach" class="hover:text-secondary transition-colors">Cockroach Control</a></li>
+            <li><a href="services.html#termite" class="hover:text-secondary transition-colors">Termite Control</a></li>
+            <li><a href="services.html#rodent" class="hover:text-secondary transition-colors">Rodent Control</a></li>
+            <li><a href="services.html#bedbug" class="hover:text-secondary transition-colors">Bed Bug Control</a></li>
+            <li><a href="services.html#mosquito" class="hover:text-secondary transition-colors">Mosquito Control</a></li>
+            <li><a href="services.html#redant" class="hover:text-secondary transition-colors">Red Ant Control</a></li>
+            <li><a href="services.html#ratmice" class="hover:text-secondary transition-colors">Rat & Mice</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-4 uppercase tracking-wider text-sm">Contact Us</h4>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg> Carencure<br>Achipatti, Pollachi<br>Coimbatore</li>
+            <li class="flex items-center gap-2"><svg class="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg> +91 98946 77328</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
+        &copy; 2026 Carencure Pest Control Services. All rights reserved.
+      </div>
+    </div>
   </footer>
 </body>
 </html>

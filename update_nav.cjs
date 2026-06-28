@@ -40,9 +40,8 @@ htmlFiles.forEach(file => {
   const fullHeader = `  <!-- Header / Navbar -->
   <header class="bg-white shadow-sm sticky top-0 z-50">
     <div class="container-custom py-4 flex justify-between items-center">
-      <a href="/" class="text-2xl font-poppins font-bold text-primary flex items-center gap-2">
-        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
-        Carencure
+      <a href="/" class="flex items-center gap-2">
+        <img src="./Images/logo.png" alt="CarenCure Logo" class="h-12 w-auto" />
       </a>
       
 ${desktopNavHtml}
@@ -64,10 +63,17 @@ ${mobileNavHtml}
   </header>`;
 
   // Replace everything between <header> and </header>
-  const updatedContent = content.replace(/<!-- Header \/ Navbar -->[\s\S]*?<\/header>|<header[\s\S]*?<\/header>/i, fullHeader);
+  let updatedContent = content.replace(/<!-- Header \/ Navbar -->[\s\S]*?<\/header>|<header[\s\S]*?<\/header>/i, fullHeader);
+
+  // Inject favicon
+  if (!updatedContent.includes('rel="icon"')) {
+    updatedContent = updatedContent.replace(/<\/head>/i, '  <link rel="icon" type="image/png" href="./Images/icon.png">\n</head>');
+  } else {
+    updatedContent = updatedContent.replace(/<link[^>]*rel="icon"[^>]*>/i, '<link rel="icon" type="image/png" href="./Images/icon.png">');
+  }
 
   if (updatedContent !== content) {
     fs.writeFileSync(filePath, updatedContent, 'utf8');
-    console.log(`Updated navigation in ${file}`);
+    console.log(`Updated navigation & favicon in ${file}`);
   }
 });
