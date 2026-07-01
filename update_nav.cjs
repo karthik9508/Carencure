@@ -41,7 +41,7 @@ htmlFiles.forEach(file => {
   <header class="bg-white shadow-sm sticky top-0 z-50">
     <div class="container-custom py-4 flex justify-between items-center">
       <a href="/" class="flex items-center gap-2">
-        <img src="./Images/logo.png" alt="CarenCure Logo" class="h-12 w-auto" />
+        <img src="./Images/logo.webp" alt="CarenCure Logo" class="h-12 w-auto" />
       </a>
       
 ${desktopNavHtml}

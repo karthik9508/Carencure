@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const service = document.getElementById('wa-service').value;
     
     // Construct the formatted WhatsApp message
-    const message = `Hi CarenCure,\n\nI would like to inquire about your services.\n\n*Name:* ${name}\n*City:* ${city}\n*Service Needed:* ${service}`;
+    const message = `Hi Care N Cure Pest Control Service,\n\nI would like to inquire about your services.\n\n*Name:* ${name}\n*City:* ${city}\n*Service Needed:* ${service}`;
     const waUrl = `https://wa.me/${currentWaTarget}?text=${encodeURIComponent(message)}`;
     
     // Close modal, reset form & redirect
